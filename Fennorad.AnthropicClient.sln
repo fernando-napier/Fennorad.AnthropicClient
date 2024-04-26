@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fennorad.AnthropicClient", "Fennorad.AnthropicClient.csproj", "{DD64597E-8FD3-4860-943B-F5EB563BB60E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD64597E-8FD3-4860-943B-F5EB563BB60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD64597E-8FD3-4860-943B-F5EB563BB60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD64597E-8FD3-4860-943B-F5EB563BB60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD64597E-8FD3-4860-943B-F5EB563BB60E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB095267-708E-45AE-8A6E-B57DB1434FD7}
+	EndGlobalSection
+EndGlobal
