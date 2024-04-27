@@ -4,6 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+    <Description>Easily integrate with Anthropic's Claude.</Description>
+    <Authors>Fernando Napier</Authors>
+    <RepositoryUrl>https://github.com/fernando-napier/Fennorad.AnthropicClient</RepositoryUrl>
+    <PackageTags>fennorad anthropic client</PackageTags>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <PackageId>Fennorad.AnthropicClient</PackageId>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
