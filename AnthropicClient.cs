@@ -59,6 +59,12 @@ namespace Fennorad.AnthropicClient
             return JsonConvert.DeserializeObject<AnthropicResponse>(content);
         }
 
+        /// <summary>
+        /// Returns the Server Sent Evetns from Claude
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
         public async IAsyncEnumerable<SseData<ClaudeStreamEvent>> SendMessageStreamAsync(AnthropicRequest request, CancellationToken cancellationToken = default)
         {
             CheckRequest(request);
