@@ -19,14 +19,6 @@ namespace Fennorad.AnthropicClient
                 client.DefaultRequestHeaders.Add("anthropic-version", anthropicVersion);
                 client.BaseAddress = new Uri("https://api.anthropic.com/");
             });
-
-            JsonConvert.DefaultSettings = (() =>
-            {
-                var settings = new JsonSerializerSettings();
-                settings.Converters.Add(new StringEnumConverter { CamelCaseText = true });
-                return settings;
-            });
-
             return services;
         }
     }
