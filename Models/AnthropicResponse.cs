@@ -5,10 +5,13 @@ namespace Fennorad.AnthropicClient.Models
     public class Content
     {
         [JsonProperty("type")]
-        public string Type { get; set; }
+        public Type Type { get; set; }
 
         [JsonProperty("text")]
         public string Text { get; set; }
+
+        [JsonProperty("source")]
+        public ImageSource Source { get; set; }
     }
 
     public class AnthropicResponse

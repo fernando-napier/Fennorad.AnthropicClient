@@ -8,7 +8,7 @@ namespace Fennorad.AnthropicClient.Models
         public Role Role { get; set; }
 
         [JsonProperty("content")]
-        public string Content { get; set; }
+        public List<Content> Content { get; set; }
     }
 
     public class AnthropicRequest
@@ -21,6 +21,10 @@ namespace Fennorad.AnthropicClient.Models
 
         [JsonProperty("max_tokens")]
         public int MaxTokens { get; set; }
+       
+        [JsonProperty("stream")]
+        public bool? StreamEvents { get; set; }
+
     }
 
 
